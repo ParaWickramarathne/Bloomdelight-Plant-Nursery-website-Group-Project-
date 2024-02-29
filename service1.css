@@ -1,0 +1,103 @@
+@import url('http://fonts.googleapis.com/css2?family=poppins:wght@400;500;600&display=swap');
+
+
+:root{
+    --font: 'poppins', sans-serif;
+    --color:green;
+    --bg-color: white;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper-services{
+    font-family: var(--font);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(images/Service8.avif);
+     background-size: cover;
+    
+}
+.swiper{
+    width: 100%;
+}
+
+.swiper-wrapper{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.card{
+    width:350px;
+    height:80%;
+    background-color:white;
+    border-radius: 2em;
+    box-shadow: 0 0 2em rgba(0, 0, 0, .2);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 2em;
+    justify-content: center;
+}
+
+.card_image{
+    width: 100%;
+    height: 50%;
+}
+
+.card_image img{
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+    object-position: top;
+
+}
+
+.card_content{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card_title{
+    font-size: 2rem;
+    font-weight: 700;
+    position: relative;
+    top: .2em;
+    text-align: center;
+}
+
+.card_name{
+    color: var(--color);
+    padding-top: 5px;
+    font-size: 1rem;
+}
+
+.card_text{
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 1em 0;
+    color: rgb(131, 78, 8);
+}
+
+.card_btn{
+    background-color: var(--color);
+    color: white;
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    border: none;
+    padding: .5em;
+    border-radius: .5em;
+    margin-top: .5em;
+    cursor: pointer;
+
+}
+

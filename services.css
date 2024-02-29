@@ -1,0 +1,92 @@
+@import url('http://fonts.googleapis.com/css2?family=poppins:wght@400;500;600&display=swap');
+
+
+:root{
+    --font: 'poppins', sans-serif;
+    --color:green;
+    --bg-color: white;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: var(--font);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(images/Service8.avif);
+     background-size: cover;
+    
+}
+.swiper{
+    width: 100%;
+}
+
+.swiper-wrapper{
+    width: 100%;
+    height: 40em;
+    display: flex;
+    align-items: center;
+}
+.card{
+    width:25em;
+    height:90%;
+    background-color:white;
+    border-radius: 2em;
+    box-shadow: 0 0 2em rgba(0, 0, 0, .2);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 2em;
+}
+
+.card_image img{
+    width: 100%;
+    height: 100%
+}
+
+.card_content{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card_title{
+    font-size: 2rem;
+    font-weight: 700;
+    position: relative;
+    top: .2em;
+    text-align: center;
+}
+
+.card_name{
+    color: var(--color);
+    padding-top: 20px;
+}
+
+.card_text{
+    text-align: center;
+    font-size: 1.2rem;
+    margin: 1em 0;
+    color: rgb(131, 78, 8);
+}
+
+.card_btn{
+    background-color: var(--color);
+    color: white;
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    border: none;
+    padding: .5em;
+    border-radius: .5em;
+    margin-top: .5em;
+    cursor: pointer;
+
+}
+
